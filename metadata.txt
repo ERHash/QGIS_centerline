@@ -1,0 +1,20 @@
+[general]
+name=Polygon Centerline Generator
+qgisMinimumVersion=3.0
+description=Génère des centerlines à partir de polygones
+version=1.0
+author=Erwan H
+email=-
+about=Ce plugin permet de générer automatiquement des lignes centrales (centerlines/medial axis) à partir de polygones. Idéal pour extraire l'axe central des rivières, routes, bâtiments allongés, etc.
+
+tracker=http://github.com/ERHash/QGIS_centerline/issues
+repository=http://github.com/ERHash/QGIS_centerline
+
+
+hasProcessingProvider=no
+tags=vector,polygon,centerline,skeleton,medial axis
+homepage=http://github.com/ERHash/QGIS_centerline
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
